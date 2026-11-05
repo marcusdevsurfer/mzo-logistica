@@ -2,30 +2,31 @@ import Image from "next/image";
 
 export default function Header() {
     return (
-        <div className="absolute top-0 left-0 w-full min-h-24 flex items-center justify-center bg-black py-8 px-4">
+        <header className="relative z-20 grid w-full grid-cols-1 items-center gap-4 bg-black/80 px-4 py-4 backdrop-blur-sm sm:grid-cols-[auto_1fr] sm:px-8 lg:px-16">
             <Image
-                className="w-75 h-auto cursor-pointer"
+                className="mx-auto h-auto w-32 cursor-pointer sm:mx-0 sm:w-40"
+                loading="eager"
                 src="/zlo.webp"
                 alt="Logo zlo"
-                width={100}
-                height={100}
+                width={200}
+                height={80}
             />
 
-            <div className="ml-4 flex items-center cursor-pointer">
-                <a className="text-white ml-4 hover:text-green-400 transition-colors duration-100">
+            <nav aria-label="Navegación principal" className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2 sm:justify-end sm:gap-x-6">
+                <a href="#inicio" className="text-sm text-white transition-colors duration-100 hover:text-green-400 sm:text-base font-bold">
                     Inicio
                 </a>
-                <a className="text-white ml-4 hover:text-green-400 transition-colors duration-100">
+                <a href="#sobre-nosotros" className="text-sm text-white transition-colors duration-100 hover:text-green-400 sm:text-base font-bold">
                     Sobre nosotros
                 </a>
-                <a className="text-white ml-4 hover:text-green-400 transition-colors duration-100">
+                <a href="#servicios" className="text-sm text-white transition-colors duration-100 hover:text-green-400 sm:text-base font-bold">
                     Servicios
                 </a>
-                <a className="text-white ml-4 hover:text-green-400 transition-colors duration-100">
+                <a href="#contacto" className="text-sm text-white transition-colors duration-100 hover:text-green-400 sm:text-base font-bold">
                     Contacto
                 </a>
-            </div>
+            </nav>
 
-        </div>
+        </header>
     )
 }
