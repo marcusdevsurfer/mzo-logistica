@@ -4,6 +4,9 @@ import { Video } from "./Components/Video";
 export default function Home() {
   return (
     <main className="w-full font-sans">
+      <div className="bg-amber-300 text-black font-bold text-center">
+        Esta pagina esta en desarrollo, podria presentar errores 🚧
+      </div>
       <section
         id="inicio"
         className="relative isolate grid min-h-svh w-full grid-rows-[auto_1fr] overflow-hidden bg-black"
