@@ -16,13 +16,13 @@ export default function AboutUs() {
 
                 <div className="flex flex-col justify-center items-center">
                     <div className="mt-4">
-                        <h3 className="text-3xl font-bold">Vision</h3>
+                        <h3 className="font-display text-3xl">Vision</h3>
                         <p>
                             Nuestra vision es crear una estrategia logistica mediante enlaces directos para evitar demoras en el proceso o impactos negativos en las tarifas del producto final.
                         </p>
                     </div>
                     <div className="mt-4">
-                        <h3 className="text-3xl font-bold">Mision</h3>
+                        <h3 className="font-display text-3xl">Mision</h3>
                         <p>
                             Darle a nuestros clientes la solucion logistica mas eficiente acorde las necesidades de cada proyecto, es por eso que trabajamos todo el tiempo en forma interdisciplinaria, buscando siempre un ganar-ganar.
                         </p>
