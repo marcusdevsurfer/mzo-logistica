@@ -1,5 +1,5 @@
 
-export function Video() {
+export default function Video() {
     return (
         <video
             aria-hidden="true"
