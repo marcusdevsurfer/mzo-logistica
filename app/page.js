@@ -1,11 +1,12 @@
 import AboutUs from "./Components/AboutUs";
 import Header from "./Components/Header";
-import { Video } from "./Components/Video";
+import Services from "./Components/Services";
+import Video from "./Components/Video";
 export default function Home() {
   return (
     <main className="w-full font-sans">
       <div className="bg-amber-300 text-black font-bold text-center">
-        Esta pagina esta en desarrollo, podria presentar errores 🚧
+        Esta pagina esta en desarrollo, podría presentar errores 🚧
       </div>
       <section
         id="inicio"
@@ -19,6 +20,7 @@ export default function Home() {
         <Header />
       </section>
       <AboutUs />
+      <Services />
     </main>
   );
 }

@@ -13,16 +13,16 @@ export default function Header() {
             />
 
             <nav aria-label="Navegación principal" className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2 sm:justify-end sm:gap-x-6">
-                <a href="#inicio" className="text-sm text-white transition-colors duration-100 hover:text-green-400 sm:text-base font-bold font-display">
+                <a href="#inicio" className="text-sm text-white hover:text-green-600 sm:text-base font-roboto font-bold hover:underline underline-offset-4 underline-green-600 transition-all duration-400 ">
                     Inicio
                 </a>
-                <a href="#sobre-nosotros" className="text-sm text-white transition-colors duration-100 hover:text-green-400 sm:text-base font-bold font-display">
+                <a href="#sobre-nosotros" className="text-sm text-white transition-colors duration-100 hover:text-green-600 sm:text-base font-roboto font-bold">
                     Sobre nosotros
                 </a>
-                <a href="#servicios" className="text-sm text-white transition-colors duration-100 hover:text-green-400 sm:text-base font-bold font-display">
+                <a href="#servicios" className="text-sm text-white transition-colors duration-100 hover:text-green-600 sm:text-base font-roboto font-bold">
                     Servicios
                 </a>
-                <a href="#contacto" className="text-sm text-white transition-colors duration-100 hover:text-green-400 sm:text-base font-bold font-display">
+                <a href="#contacto" className="text-sm text-white transition-colors duration-100 hover:text-green-600 sm:text-base font-roboto font-bold">
                     Contacto
                 </a>
             </nav>
