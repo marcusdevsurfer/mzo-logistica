@@ -15,9 +15,9 @@ export default function Service() {
     return (
         <section id="servicios" className="bg-gray-100 text-black px-8 py-16 sm:px-8 lg:px-16">
             <div className="text-center text-6xl mb-12">
-                <h2 className="font-bold font-roboto">Nuestros <span className="font-bold font-roboto text-green-700">Servicios</span></h2>
+                <h2 className="font-bold font-roboto">Nuestros <span className="font-bold font-roboto text-green-800">Servicios</span></h2>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                 {services.map((service, index) => (
                     <ServiceCard key={index} service={service} />
                 ))}

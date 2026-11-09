@@ -1,24 +1,24 @@
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#15803d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <!-- Container 1 -->
-  <rect x="20" y="60" width="60" height="65" rx="2"/>
-  <line x1="20" y1="70" x2="80" y2="70"/>
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#15803d" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Container 1 (left) -->
+  <rect x="15" y="65" width="65" height="65" rx="2" fill="none"/>
+  <line x1="15" y1="80" x2="80" y2="80" stroke="#15803d" stroke-width="4.5"/>
   
-  <!-- Door lines on container 1 -->
-  <line x1="50" y1="70" x2="50" y2="125"/>
-  <circle cx="55" cy="90" r="2" fill="#15803d"/>
+  <!-- Door line container 1 -->
+  <line x1="47" y1="80" x2="47" y2="130" stroke="#15803d" stroke-width="4.5"/>
   
-  <!-- Container 2 (stacked) -->
-  <rect x="90" y="50" width="60" height="65" rx="2"/>
-  <line x1="90" y1="60" x2="150" y2="60"/>
+  <!-- Handle container 1 -->
+  <circle cx="55" cy="95" r="2.5" fill="#15803d"/>
   
-  <!-- Door lines on container 2 -->
-  <line x1="120" y1="60" x2="120" y2="115"/>
-  <circle cx="125" cy="80" r="2" fill="#15803d"/>
+  <!-- Container 2 (right, stacked higher) -->
+  <rect x="105" y="50" width="65" height="65" rx="2" fill="none"/>
+  <line x1="105" y1="65" x2="170" y2="65" stroke="#15803d" stroke-width="4.5"/>
   
-  <!-- Wheels at bottom -->
-  <circle cx="35" cy="145" r="8" fill="none"/>
-  <circle cx="105" cy="135" r="8" fill="none"/>
+  <!-- Door line container 2 -->
+  <line x1="137" y1="65" x2="137" y2="115" stroke="#15803d" stroke-width="4.5"/>
   
-  <!-- Ground line -->
-  <line x1="15" y1="155" x2="165" y2="155"/>
+  <!-- Handle container 2 -->
+  <circle cx="145" cy="80" r="2.5" fill="#15803d"/>
+  
+  <!-- Ground/Support line -->
+  <line x1="15" y1="155" x2="170" y2="155" stroke="#15803d" stroke-width="4.5"/>
 </svg>

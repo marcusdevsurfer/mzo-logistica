@@ -1,18 +1,22 @@
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#15803d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <!-- Document/Clipboard -->
-  <rect x="45" y="30" width="110" height="140" rx="5"/>
-  <line x1="45" y1="55" x2="155" y2="55"/>
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#15803d" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Clipboard body -->
+  <rect x="40" y="25" width="120" height="150" rx="8" fill="none"/>
   
-  <!-- Text lines (document details) -->
-  <line x1="60" y1="70" x2="140" y2="70"/>
-  <line x1="60" y1="85" x2="140" y2="85"/>
-  <line x1="60" y1="100" x2="140" y2="100"/>
-  <line x1="60" y1="115" x2="120" y2="115"/>
+  <!-- Clip at top -->
+  <rect x="90" y="18" width="20" height="15" rx="3" fill="none"/>
   
-  <!-- Checkmark stamp -->
-  <circle cx="125" cy="135" r="18" fill="none" stroke="#15803d" stroke-width="1.5"/>
-  <path d="M 120 135 L 125 140 L 135 130" stroke="#15803d" stroke-width="2"/>
+  <!-- Header line -->
+  <line x1="40" y1="55" x2="160" y2="55" stroke="#15803d" stroke-width="4.5"/>
   
-  <!-- Clip -->
-  <rect x="95" y="25" width="10" height="18" rx="3" fill="none"/>
+  <!-- Text lines -->
+  <line x1="55" y1="75" x2="145" y2="75" stroke="#15803d" stroke-width="4"/>
+  <line x1="55" y1="95" x2="145" y2="95" stroke="#15803d" stroke-width="4"/>
+  <line x1="55" y1="115" x2="125" y2="115" stroke="#15803d" stroke-width="4"/>
+  <line x1="55" y1="135" x2="125" y2="135" stroke="#15803d" stroke-width="4"/>
+  
+  <!-- Checkmark stamp circle -->
+  <circle cx="130" cy="95" r="20" fill="none" stroke="#15803d" stroke-width="4"/>
+  
+  <!-- Checkmark inside -->
+  <path d="M 120 95 L 128 103 L 145 85" fill="none" stroke="#15803d" stroke-width="4.5"/>
 </svg>

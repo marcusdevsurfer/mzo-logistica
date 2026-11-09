@@ -1,25 +1,28 @@
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#15803d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <!-- Pallet -->
-  <rect x="40" y="110" width="120" height="15" rx="1"/>
-  <line x1="50" y1="110" x2="50" y2="125"/>
-  <line x1="100" y1="110" x2="100" y2="125"/>
-  <line x1="150" y1="110" x2="150" y2="125"/>
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#15803d" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Pallet base -->
+  <rect x="35" y="115" width="130" height="18" rx="2" fill="none"/>
   
-  <!-- Boxes on pallet -->
-  <!-- Box 1 -->
-  <rect x="50" y="75" width="40" height="35" rx="1"/>
-  <line x1="50" y1="83" x2="90" y2="83"/>
+  <!-- Pallet support beams -->
+  <line x1="50" y1="115" x2="50" y2="133" stroke="#15803d" stroke-width="4.5"/>
+  <line x1="100" y1="115" x2="100" y2="133" stroke="#15803d" stroke-width="4.5"/>
+  <line x1="150" y1="115" x2="150" y2="133" stroke="#15803d" stroke-width="4.5"/>
   
-  <!-- Box 2 -->
-  <rect x="95" y="70" width="40" height="35" rx="1"/>
-  <line x1="95" y1="78" x2="135" y2="78"/>
+  <!-- Box 1 (bottom left) -->
+  <rect x="45" y="75" width="40" height="40" rx="2" fill="none"/>
+  <line x1="45" y1="85" x2="85" y2="85" stroke="#15803d" stroke-width="4.5"/>
   
-  <!-- Box 3 (top) -->
-  <rect x="72" y="40" width="56" height="30" rx="1"/>
-  <line x1="72" y1="48" x2="128" y2="48"/>
+  <!-- Box 2 (bottom right) -->
+  <rect x="100" y="75" width="40" height="40" rx="2" fill="none"/>
+  <line x1="100" y1="85" x2="140" y2="85" stroke="#15803d" stroke-width="4.5"/>
   
-  <!-- Forklift prongs -->
-  <rect x="20" y="95" width="8" height="40"/>
-  <rect x="32" y="95" width="8" height="40"/>
-  <line x1="24" y1="95" x2="36" y2="95"/>
+  <!-- Box 3 (top middle) -->
+  <rect x="72" y="35" width="56" height="40" rx="2" fill="none"/>
+  <line x1="72" y1="47" x2="128" y2="47" stroke="#15803d" stroke-width="4.5"/>
+  
+  <!-- Forklift prongs (left) -->
+  <rect x="15" y="95" width="8" height="45" rx="2" fill="none"/>
+  <rect x="27" y="95" width="8" height="45" rx="2" fill="none"/>
+  
+  <!-- Forklift connector -->
+  <line x1="19" y1="95" x2="31" y2="95" stroke="#15803d" stroke-width="4.5"/>
 </svg>
