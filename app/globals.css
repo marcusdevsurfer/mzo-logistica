@@ -11,6 +11,7 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --font-display: var(--font-built-titling);
+  --font-roboto: var(--font-roboto-local);
 }
 
 @media (prefers-color-scheme: dark) {

@@ -18,6 +18,16 @@ const builtTitling = localFont({
   display: "swap",
 });
 
+const roboto = localFont({
+  src: [
+    { path: "../public/fonts/roboto/Roboto-Regular.ttf", weight: "400", style: "normal" },
+    { path: "../public/fonts/roboto/Roboto-Medium.ttf", weight: "500", style: "normal" },
+    { path: "../public/fonts/roboto/Roboto-Bold.ttf", weight: "700", style: "normal" },
+  ],
+  variable: "--font-roboto-local",
+  display: "swap",
+});
+
 export const metadata = {
   title: "Logistica y Transporte ZLO",
   description: "Pagina web de Logistica y Transporte ZLO",
@@ -27,7 +37,7 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${builtTitling.variable} h-full antialiased`}
+      className={`${builtTitling.variable} ${roboto.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
