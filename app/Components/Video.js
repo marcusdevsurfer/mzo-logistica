@@ -3,7 +3,7 @@ export default function Video() {
     return (
         <video
             aria-hidden="true"
-            className="absolute inset-0 z-0 h-full w-full object-cover contrast-100"
+            className="absolute inset-0 z-0 h-full w-full object-cover"
             autoPlay
             muted
             preload="auto"
