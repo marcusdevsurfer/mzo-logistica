@@ -1,9 +1,17 @@
 export default function ServiceCard({ service }) {
-    const { title, description } = service;
+    const { title, icon } = service;
     return (
-        <div className="bg-white p-4 rounded shadow">
-            <h3 className="text-2xl text-gray-900 font-display" >{title}</h3>
-            <p className="text-gray-700">{description}</p>
+        <div className="p-8 rounded-xl bg-white shadow-md hover:shadow-lg transition-shadow duration-300">
+            {icon && (
+                <div className="mb-4 flex justify-center">
+                    <img 
+                        src={icon} 
+                        alt={title} 
+                        className="w-20 h-20 text-green-700"
+                    />
+                </div>
+            )}
+            <h3 className="text-xl text-black font-roboto text-center font-semibold">{title}</h3>
         </div>
     )
 }

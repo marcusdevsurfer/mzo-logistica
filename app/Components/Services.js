@@ -3,27 +3,25 @@ import ServiceCard from "./ServiceCard";
 export default function Service() {
 
     const services = [
-        { title: "Asesoramiento logístico", description: "Descripción del servicio." },
-        { title: "Asesoramiento aduanal", description: "Descripción del servicio." },
-        { title: "Fletes terrestres", description: "Descripción del servicio." },
-        { title: "Previo de origen", description: "Descripción del servicio." },
-        { title: "Manejo de mercancía general y peligrosa", description: "Descripción del servicio." },
-        { title: "Renta de contenedores con pedimento", description: "Descripción del servicio." },
-        { title: "Emplaye y Paletizado", description: "Descripción del servicio." }
+        { title: "Asesoramiento logístico", icon: "/svgs/asesoramiento-logistico.svg" },
+        { title: "Asesoramiento aduanal", icon: "/svgs/asesoramiento-aduanal.svg" },
+        { title: "Fletes terrestres", icon: "/svgs/fletes-terrestres.svg" },
+        { title: "Previo de origen", icon: "/svgs/previo-origen.svg" },
+        { title: "Manejo de mercancía general y peligrosa", icon: "/svgs/manejo-mercancia.svg" },
+        { title: "Renta de contenedores con pedimento", icon: "/svgs/renta-contenedores.svg" },
+        { title: "Emplaye y Paletizado", icon: "/svgs/emplaye-paletizado.svg" }
     ]
 
     return (
-        <div>
-            <section id="servicios" className="bg-black text-white px-4 py-16 sm:px-8 lg:px-16">
-                <div className="text-center">
-                    <h2 className="text-5xl font-bold mb-8 font-display">Nuestros <span className="text-5xl font-bold mb-8 font-display text-green-700">Servicios</span></h2>
-                </div>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                    {services.map((service, index) => (
-                        <ServiceCard key={index} service={service} />
-                    ))}
-                </div>
-            </section>
-        </div>
+        <section id="servicios" className="bg-gray-100 text-black px-8 py-16 sm:px-8 lg:px-16">
+            <div className="text-center text-6xl mb-12">
+                <h2 className="font-bold font-roboto">Nuestros <span className="font-bold font-roboto text-green-700">Servicios</span></h2>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                {services.map((service, index) => (
+                    <ServiceCard key={index} service={service} />
+                ))}
+            </div>
+        </section>
     )
 }

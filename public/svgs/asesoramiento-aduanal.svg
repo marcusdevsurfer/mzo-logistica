@@ -1,0 +1,18 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#15803d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Document/Clipboard -->
+  <rect x="45" y="30" width="110" height="140" rx="5"/>
+  <line x1="45" y1="55" x2="155" y2="55"/>
+  
+  <!-- Text lines (document details) -->
+  <line x1="60" y1="70" x2="140" y2="70"/>
+  <line x1="60" y1="85" x2="140" y2="85"/>
+  <line x1="60" y1="100" x2="140" y2="100"/>
+  <line x1="60" y1="115" x2="120" y2="115"/>
+  
+  <!-- Checkmark stamp -->
+  <circle cx="125" cy="135" r="18" fill="none" stroke="#15803d" stroke-width="1.5"/>
+  <path d="M 120 135 L 125 140 L 135 130" stroke="#15803d" stroke-width="2"/>
+  
+  <!-- Clip -->
+  <rect x="95" y="25" width="10" height="18" rx="3" fill="none"/>
+</svg>
