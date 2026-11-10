@@ -1,28 +1,19 @@
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#15803d" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
-  <!-- Pallet base -->
-  <rect x="35" y="115" width="130" height="18" rx="2" fill="none"/>
-  
-  <!-- Pallet support beams -->
-  <line x1="50" y1="115" x2="50" y2="133" stroke="#15803d" stroke-width="4.5"/>
-  <line x1="100" y1="115" x2="100" y2="133" stroke="#15803d" stroke-width="4.5"/>
-  <line x1="150" y1="115" x2="150" y2="133" stroke="#15803d" stroke-width="4.5"/>
-  
-  <!-- Box 1 (bottom left) -->
-  <rect x="45" y="75" width="40" height="40" rx="2" fill="none"/>
-  <line x1="45" y1="85" x2="85" y2="85" stroke="#15803d" stroke-width="4.5"/>
-  
-  <!-- Box 2 (bottom right) -->
-  <rect x="100" y="75" width="40" height="40" rx="2" fill="none"/>
-  <line x1="100" y1="85" x2="140" y2="85" stroke="#15803d" stroke-width="4.5"/>
-  
-  <!-- Box 3 (top middle) -->
-  <rect x="72" y="35" width="56" height="40" rx="2" fill="none"/>
-  <line x1="72" y1="47" x2="128" y2="47" stroke="#15803d" stroke-width="4.5"/>
-  
-  <!-- Forklift prongs (left) -->
-  <rect x="15" y="95" width="8" height="45" rx="2" fill="none"/>
-  <rect x="27" y="95" width="8" height="45" rx="2" fill="none"/>
-  
-  <!-- Forklift connector -->
-  <line x1="19" y1="95" x2="31" y2="95" stroke="#15803d" stroke-width="4.5"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="149.391mm" height="140.245mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 11659.35 10945.51"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:#005500;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path id="XMLID_1014_" class="fil0" d="M11302.43 8090.16l-356.92 0 0 -3688.16c0,-197.11 -159.81,-356.92 -356.92,-356.92l-2022.54 0 0 -3688.16c0,-197.11 -159.81,-356.92 -356.92,-356.92l-4758.93 0c-197.11,0 -356.92,159.81 -356.92,356.92l0 3688.16 -2022.54 -0.01c-197.12,0 -356.92,159.81 -356.92,356.92l0 3688.16 -356.92 0c-197.11,0 -356.92,159.81 -356.92,356.93l0 2141.51c0,197.12 159.81,356.92 356.92,356.92l1427.67 0c197.12,0 356.92,-159.81 356.92,-356.92l0 -356.93 2617.41 0.01 0 356.92c0,197.12 159.8,356.92 356.92,356.92l1427.67 0c197.12,0 356.92,-159.81 356.92,-356.92l0 -356.93 2617.41 0.01 0 356.92c0,197.12 159.8,356.92 356.92,356.92l1427.67 0c197.11,0 356.92,-159.81 356.92,-356.92l0 -2141.52c0,-197.11 -159.81,-356.92 -356.92,-356.92zm-1070.76 -3331.24l0 3331.24 -4045.08 0 0 -3331.24 4045.08 0zm-6424.55 -4045.08l4045.09 0 0 3331.24 -4045.09 0 0 -3331.24zm-2379.46 4045.08l4045.08 0 0 3331.24 -4045.08 0 0 -3331.24zm9517.84 5472.76l-713.84 0 0 -356.92c0,-197.12 -159.8,-356.92 -356.92,-356.92l-3331.25 0c-197.11,0 -356.92,159.8 -356.92,356.92l0 356.92 -713.84 0 0 -356.92c0,-197.12 -159.81,-356.92 -356.92,-356.92l-3331.25 0c-197.12,0 -356.92,159.8 -356.92,356.92l0 356.92 -713.84 0 0 -1427.67 10231.68 0 0 1427.67z"/>
+ </g>
 </svg>

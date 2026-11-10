@@ -18,7 +18,7 @@ export default function Service() {
                 {/* Header */}
                 <div className="mb-16">
                     <div className="mb-3">
-                        <div className="w-8 h-1 bg-green-500 rounded-full mb-3"></div>
+                        <div className="w-8 h-1 bg-green-900 rounded-full mb-3"></div>
                         <h3 className="text-sm font-semibold text-gray-600 uppercase tracking-wide">Soluciones logísticas</h3>
                     </div>
                     <h2 className="text-4xl lg:text-5xl font-bold font-roboto text-black">
