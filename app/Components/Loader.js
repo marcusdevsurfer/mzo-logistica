@@ -33,8 +33,8 @@ export default function Loader() {
         className="animate-pulse"
         src="/zlo.webp"
         alt="Cargando..."
-        width={128}
-        height={128}
+        width={256}
+        height={256}
         priority
       />
     </div>

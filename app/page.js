@@ -2,6 +2,7 @@ import AboutUs from "./Components/AboutUs";
 import Header from "./Components/Header";
 import Services from "./Components/Services";
 import Video from "./Components/Video";
+import Footer from "./Components/Footer";
 export default function Home() {
   return (
     <main className="w-full font-sans">
@@ -21,6 +22,7 @@ export default function Home() {
       </section>
       <AboutUs />
       <Services />
+      <Footer />
     </main>
   );
 }
