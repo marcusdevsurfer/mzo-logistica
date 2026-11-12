@@ -1,23 +1,11 @@
-import { Geist, Geist_Mono } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 import Loader from "./Components/Loader";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
-const builtTitling = localFont({
-  src: "../public/built titling bd.otf",
-  variable: "--font-built-titling",
-  display: "swap",
-});
+// const geistSans = Geist({
+//   variable: "--font-geist-sans",
+//   subsets: ["latin"],
+// });
 
 const roboto = localFont({
   src: [
@@ -34,11 +22,14 @@ export const metadata = {
   description: "Pagina web de Logistica y Transporte ZLO",
 };
 
+// Colors
+// #86BFF9
+
 export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${builtTitling.variable} ${roboto.variable} h-full antialiased`}
+      className={`${roboto.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
         <Loader />
