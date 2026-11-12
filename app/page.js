@@ -3,12 +3,10 @@ import Header from "./Components/Header";
 import Services from "./Components/Services";
 import Video from "./Components/Video";
 import Footer from "./Components/Footer";
+import FooterV2 from "./Components/FooterV2";
 export default function Home() {
   return (
     <main className="w-full font-sans">
-      {/* <div className="bg-amber-300 text-black font-bold text-center">
-        Esta pagina esta en desarrollo, podría presentar errores 🚧
-      </div> */}
       <section
         id="inicio"
         className="relative isolate grid min-h-svh w-full grid-rows-[auto_1fr] overflow-hidden bg-black"
@@ -22,6 +20,7 @@ export default function Home() {
       </section>
       <AboutUs />
       <Services />
+      {/* <FooterV2 /> */}
       <Footer />
     </main>
   );
