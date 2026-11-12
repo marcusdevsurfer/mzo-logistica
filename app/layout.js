@@ -2,24 +2,18 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Loader from "./Components/Loader";
 
-// const geistSans = Geist({
-//   variable: "--font-geist-sans",
-//   subsets: ["latin"],
-// });
 
-const roboto = localFont({
+const sourceSans3 = localFont({
   src: [
-    { path: "../public/fonts/roboto/Roboto-Regular.ttf", weight: "400", style: "normal" },
-    { path: "../public/fonts/roboto/Roboto-Medium.ttf", weight: "500", style: "normal" },
-    { path: "../public/fonts/roboto/Roboto-Bold.ttf", weight: "700", style: "normal" },
+    { path: "/../public/fonts/source-sans/SourceSans3.ttf", weight: "400" },
   ],
-  variable: "--font-roboto-local",
+  variable: "--font-source-sans",
   display: "swap",
 });
 
 export const metadata = {
-  title: "Logistica y Transporte ZLO",
-  description: "Pagina web de Logistica y Transporte ZLO",
+  title: "Logística y Transporte ZLO",
+  description: "Página web de Logística y Transporte ZLO",
 };
 
 // Colors
@@ -29,7 +23,7 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${roboto.variable} h-full antialiased`}
+      className={`${sourceSans3.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
         <Loader />
