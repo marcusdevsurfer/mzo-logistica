@@ -16,8 +16,6 @@ export const metadata = {
   description: "Página web de Logística y Transporte ZLO",
 };
 
-// Colors
-// #86BFF9
 
 export default function RootLayout({ children }) {
   return (
