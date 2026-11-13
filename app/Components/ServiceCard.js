@@ -11,7 +11,7 @@ export default function ServiceCard({ service }) {
                     />
                 </div>
             )}
-            <h3 className="text-xl text-black font-roboto text-center font-semibold">{title}</h3>
+            <h3 className="text-xl text-black font-source-sans text-center font-semibold">{title}</h3>
         </div>
     )
 }

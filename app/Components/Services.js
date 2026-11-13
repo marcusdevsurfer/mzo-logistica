@@ -19,9 +19,9 @@ export default function Service() {
                 <div className="mb-16">
                     <div className="mb-3">
                         <div className="w-8 h-1 bg-[#86BF59] rounded-full mb-3"></div>
-                        <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wide">Soluciones logísticas</h3>
+                        <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wide font-source-sans">Soluciones logísticas</h3>
                     </div>
-                    <h2 className="text-4xl lg:text-5xl font-bold font-roboto text-black">
+                    <h2 className="text-4xl lg:text-5xl font-bold font-roboto text-black font-source-sans">
                         Nuestros Servicios
                     </h2>
                 </div>
