@@ -20,8 +20,8 @@ export default function Home() {
       </section>
       <AboutUs />
       <Services />
-      {/* <FooterV2 /> */}
-      <Footer />
+      <FooterV2 />
+      {/* <Footer /> */}
     </main>
   );
 }
