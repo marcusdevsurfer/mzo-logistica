@@ -28,9 +28,9 @@ export default function FooterV2() {
                         <div className="mb-6">
                             <h4 className="text-xl font-bold">Horarios</h4>
                         </div>
-                        <p className="text-sm sm:text-base">Lunes a Viernes: 8am - 8pm</p>
-                        <p className="text-sm sm:text-base">Sábado 9am - 2pm</p>
-                        <p className="text-sm sm:text-base">Domingo: 10am - 3pm</p>
+                        <p className="text-sm sm:text-base">Lunes a Viernes: 8:00am - 8:00pm</p>
+                        <p className="text-sm sm:text-base">Sábado 9:00am - 2:00pm</p>
+                        <p className="text-sm sm:text-base">Domingo: 10:00am - 3:00pm</p>
                     </div>
                     <div className="text-start min-w-0">
                         <div className="mb-6">
